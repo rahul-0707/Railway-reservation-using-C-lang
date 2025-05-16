@@ -1,0 +1,31 @@
+To run this C project, follow these steps:
+
+1. **Install a C Compiler**  
+    Make sure you have a C compiler installed, such as GCC (MinGW for Windows) or Turbo C.
+
+2. **Place All Files Together**  
+    Ensure `main.c` and all required data files (like `Railway_database.txt`, `Admin.txt`, etc.) are in the same directory.
+
+3. **Compile the Code**  
+    Open a terminal/command prompt in the project directory and run:
+    ```
+    gcc main.c -o railway.exe
+    ```
+    Or, if you use Turbo C, open the project and compile using the IDE.
+
+4. **Run the Program**  
+    After compiling, run:
+    ```
+    railway.exe
+    ```
+    or
+    ```
+    ./railway.exe
+    ```
+
+5. **Note**  
+    - The program uses `getch()`, which may require `<conio.h>`. If you get errors, add `#include <conio.h>` at the top.
+    - Run the program in a terminal that supports input/output as expected by the code.
+    - Some features may require you to create empty text files (like `Admin.txt`) before first run.
+
+Let me know if you need help with a specific compiler or error!
